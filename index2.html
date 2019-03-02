@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html manifest="comicgen.appcache">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+<link href="estilo.css" type="text/css" rel="stylesheet"/>
+<title>BARDS v.1.0</title>
+
+<style type="text/css">
+</style>
+</head>
+<body>
+
+<div id="toolbar" class="rcBottom">
+	<div><b>BARDS: Borrowing, Adapting, and Remixing: Digital Humanities and Shakespeare</b></div><p/>
+	(Links open in new tabs) <b>| <a target="_blank" href="javascript:cg.saveImage();">Save image</a> | <a target="_blank" href="index.html">Front Page</a> | <a target="_blank" href="learning.html">Learning Objectives</a> | <a target="_blank" href="guide.html">Help / User's Guide (ENGL121)</a> | <a target="_blank" href="https://www.comicsgrid.com/article/10.16995/cg.102/">Gavaler (2018)</a> | <a target="_blank" href="http://internetshakespeare.uvic.ca/doc/Ham_Q1/scene/1/">Q1 text</a> | <a target="_blank" href="http://internetshakespeare.uvic.ca/doc/Ham_Q2/scene/1.1/">Q2 text</a> | <a target="_blank" href="http://internetshakespeare.uvic.ca/doc/Ham_F1/scene/1.1/">F1 text</a> | <a target="_blank" href="about.html">About BARDS</a></b>
+</div>
+
+<div id="container">
+	<div id="menuContainer">
+		<div id="logo">BARDS v.1.0</div>
+		<div id="lib" class="rc"></div>
+		
+		
+	</div>
+
+	<div id="cscreen">
+		<canvas class="rc" id="c" width="500" height="725">
+			Your browser does not support HTML5. please use a newer browser version.
+		</canvas>
+	</div>
+
+
+<div id="menuContainer2">
+<div id="logo">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Q1 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Q2 &nbsp &nbsp &nbsp &nbsp &nbsp F1</div>
+		<div id="libtext" class="rc">
+			<div class="sticky"><input type="text" style="font-size:12pt;width:490px" placeholder="Enter your own text here..." id="newText" onkeypress="cg.createTextFromInput(event)"/>
+			</div>
+			</div>
+		</div>
+</div>
+
+<div id="hiddenObjs">
+	<div id="textTool" class="rc mini textTool" title="Add text" onclick="cg.createText();">T</div>
+	
+	
+	
+	<div id="instructs" class="rc instructions">
+		<b>Instructions</b>
+		<ul>
+			<li><b>1:</b> Increase object size</li>
+			<li><b>2:</b> Decrease object size</li>
+			<li><b>3:</b> Flip object horizontally</li>
+			<li><b>4:</b> Flip object vertically</li>
+			<li><b>5:</b> Delete current object</li>
+			<li><b>6:</b> Rotate object clockwise</li>
+			<li><b>7:</b> Rotate object counter-clockwise</li>
+			<li><b>Save</b>: Right-click on the canvas and select 'Save Image As'.</li>			
+		</ul>
+
+	</div>
+
+</div>
+
+        
+
+<script type="text/javascript" src="jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="ragaboom.min.js"></script>
+<script type="text/javascript" src="comicgen.js"></script>
+
+<script type="text/javascript" >
+
+</script>
+
+</body><img src="ou-logo.png" class="center">
+</html>

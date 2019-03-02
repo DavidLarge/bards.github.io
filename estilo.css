@@ -1,0 +1,217 @@
+body{
+	font-family:arial, helvetica;
+	background: url('oldpaper.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	color:white;
+	font-size:12px;
+	text-shadow: 1px 1px 0 black;
+	margin:0px;
+}
+.center {
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  width: auto;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+}
+div.transbox {
+  float: center;
+	border-radius: 10px;
+  margin: auto;
+  padding: 15px;
+  width: 225px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+div.transbox2 {
+  float: center;
+  	border-radius: 10px;
+  margin: auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: rgb(130, 120, 120);
+  border: 2px solid #ffffff;
+}
+#container{
+	width:1240px;
+	height:800px;
+	text-align:center;
+	margin-left:25px;
+	margin-right:25px;
+}
+input{
+   text-align:center;
+}
+
+#menuContainer{
+	display:inline-block
+	width:220px;
+	height:520px;
+		margin-right:15px;
+	float:left;
+}
+
+#menuContainer2{
+	width:440px;
+	height:520px;
+	float:right;
+}
+
+#lib{
+	padding-top:2px;
+	padding-left:2px;
+	width:250px;
+	height: 515px;
+	overflow:auto;
+	background-color:rgb(130, 120, 120);
+}
+
+#libtext{
+	padding-top:2px;
+	padding-left:2px;
+	width:550px;
+	height:715px;
+	overflow:auto;
+	background-color:rgb(130, 120, 120);
+}
+#cscreen{
+	display:inline-block
+    text-align: center;
+    width: 500px;
+    height: 725px;
+    	float:left;
+}
+
+#cscreen canvas{
+	border:7px solid rgb(33, 30, 30);
+	margin-left:2px;
+	box-shadow:3px 3px 10px black;
+}
+
+.mini{
+	background-color:white;
+	width:100px;
+	height:100px;
+	padding:2px;
+	border:2px solid rgb(65, 60, 60);
+	margin:6px;
+	float:center;
+}
+
+.mini:hover{
+	background-color:orange;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.minitext{
+	background-color:white;
+	width:150px;
+	height:80px;
+	padding:2px;
+	border:2px solid rgb(65, 60, 60);
+	margin:6px;
+	overflow:hidden;
+	float:center;
+}
+
+.minitext:hover{
+	background-color:orange;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.rc {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.rcBottom {
+	-webkit-border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+#hiddenObjs{
+	display:none;
+}
+
+.textTool{
+	text-align:center;
+	font-family:'times new roman', times;
+	font-size:40px;
+	color:black;
+}
+
+.instructions{
+	text-align: left;
+	background-color:rgb(164, 158, 158);
+	width:202px;
+	height:150px;
+	padding:6px;
+	margin:2px;
+	margin-top:6px;
+	color:black;
+	text-shadow: 1px 1px 0 silver;
+}
+
+.instructions2{
+	text-align: left;
+	background-color:rgb(164, 158, 158);
+	width:300px;
+	height:160px;
+	padding:6px;
+	margin:2px;
+	margin-top:6px;
+	color:black;
+	text-shadow: 1px 1px 0 silver;
+}
+
+.instructions ul{
+	list-style:none;
+	padding-left:5px;
+}
+
+#logo{
+	text-align:left;
+	font-size:29px;
+	color: black /*rgb(130, 120, 120)*/;
+	text-shadow:0px 0px 0px black;
+	padding:4px;
+	font-weight:bold;
+}
+
+
+#logo2{
+	text-align:left;
+	font-size:20px;
+	color: black /*rgb(130, 120, 120)*/;
+	text-shadow:0px 0px 0px black;
+	padding:40px;
+}
+
+#toolbar{
+	text-align:left;
+	padding:10px;
+	width: 950px;
+	height:45px;
+	background-color:rgba(0, 0, 0, 0.5);
+	margin: 0 auto 10px auto;
+}
